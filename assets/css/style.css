@@ -15,6 +15,7 @@ body {
   -moz-animation: fadeIn 1s;
   -o-animation: fadeIn 1s;
   animation: fadeIn 1s;
+  cursor:none;
 }
 body::after {
   content: '';
@@ -102,17 +103,15 @@ nav{
     letter-spacing: 2px;
     font-weight: 400;
     padding: 5%;
-    font-size: calc(0.1em + 1vw);
     z-index: 1;
 }
 .nav-link{
   z-index: 1;
 }
 .nav-link a{
-    text-decoration: none;
-    color: #000;
-    font-size: calc(0.1em + 1vw)
-    letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 2px;
 }
 
 section {
